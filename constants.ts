@@ -40,7 +40,7 @@ export const FEATURED_PROJECTS: Project[] = [
     tech: ['PyTorch', 'Python', 'Gradio', 'LLMs', 'Nvidia Triton'],
     github: 'https://github.com/bharathgaddam1712/SyndicateSmashers',
     external: 'https://github.com/bharathgaddam1712/SyndicateSmashers',
-    image: '/images/voice-agent.jpg',
+    image: `${import.meta.env.BASE_URL}images/voice-agent.jpg`,
     featured: true,
   },
   {
@@ -49,7 +49,7 @@ export const FEATURED_PROJECTS: Project[] = [
     tech: ['Multi-Agent LLMs', 'Langchain', 'GenAI'],
     github: 'https://github.com/bharathgaddam1712/Deep_Thinking_Trading_Bot',
     external: 'https://github.com/bharathgaddam1712/Deep_Thinking_Trading_Bot',
-    image: '/images/trading-bot.jpg',
+    image: `${import.meta.env.BASE_URL}images/trading-bot.jpg`,
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ export const FEATURED_PROJECTS: Project[] = [
     tech: ['React', 'Express.js', 'MongoDB', 'VectorDB', 'GenAi'],
     github: 'https://github.com/bharathgaddam1712/Fashion_Ai',
     external: 'https://github.com/bharathgaddam1712/Fashion_Ai',
-    image: '/images/fashion-ai.jpg',
+    image: `${import.meta.env.BASE_URL}images/fashion-ai.jpg`,
     featured: true,
   }
 ];

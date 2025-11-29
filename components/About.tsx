@@ -58,7 +58,7 @@ const About: React.FC = () => {
           <div className="relative w-full rounded bg-green transition-all duration-300 group-hover:outline-0">
             {/* Image */}
             <img
-              src="/images/me.jpg"
+              src={`${import.meta.env.BASE_URL}images/me.jpg`}
               alt="Bharath Gaddam"
               className="relative z-10 w-full rounded mix-blend-multiply grayscale contrast-100 transition-all duration-300 group-hover:filter-none group-hover:mix-blend-normal"
             />

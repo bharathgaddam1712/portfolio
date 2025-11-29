@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             ))}
           </ol>
           <a
-            href="https://drive.google.com/file/d/15hWqhFsG_s1GBBmbn6bbEMQ28SrAxIrY/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1KJzNv_m_F7mjkjEvR0THoMl2-y5chq4v?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="border border-green text-green font-mono text-sm px-4 py-2 rounded hover:bg-green/10 transition-colors"

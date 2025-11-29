@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Hash, Code } from 'lucide-react';
 
 const Socials: React.FC = () => {
   return (
@@ -13,6 +13,12 @@ const Socials: React.FC = () => {
           </li>
           <li className="hover:text-green hover:-translate-y-1 transition-all duration-300">
             <a href="https://www.linkedin.com/in/BharathGaddam06" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
+          </li>
+          <li className="hover:text-green hover:-translate-y-1 transition-all duration-300">
+            <a href="https://hashnode.com/@BharathGaddam" target="_blank" rel="noreferrer" aria-label="Hashnode"><Hash size={20} /></a>
+          </li>
+          <li className="hover:text-green hover:-translate-y-1 transition-all duration-300">
+            <a href="https://leetcode.com/u/Bharath_Gaddam" target="_blank" rel="noreferrer" aria-label="LeetCode"><Code size={20} /></a>
           </li>
           <li className="hover:text-green hover:-translate-y-1 transition-all duration-300">
             <a href="mailto:22cs2013@rgipt.ac.in" aria-label="Email"><Mail size={20} /></a>

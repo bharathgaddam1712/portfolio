@@ -53,7 +53,9 @@ const Navbar: React.FC = () => {
             ))}
           </ol>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/15hWqhFsG_s1GBBmbn6bbEMQ28SrAxIrY/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="border border-green text-green font-mono text-sm px-4 py-2 rounded hover:bg-green/10 transition-colors"
           >
             Resume
@@ -95,7 +97,9 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/15hWqhFsG_s1GBBmbn6bbEMQ28SrAxIrY/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
               className="border border-green text-green font-mono text-sm px-10 py-4 rounded hover:bg-green/10 transition-colors mt-4"
             >
               Resume

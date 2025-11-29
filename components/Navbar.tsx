@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-[1600px] mx-auto px-6 h-20 flex justify-between items-center">
         {/* Logo */}
         <div className="text-green font-mono text-xl font-bold border-2 border-green rounded-full w-10 h-10 flex items-center justify-center hover:bg-green/10 cursor-pointer transition-colors">
-          V
+          BG
         </div>
 
         {/* Desktop Nav */}

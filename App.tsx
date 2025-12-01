@@ -13,28 +13,30 @@ const App: React.FC = () => {
   return (
     <div className="bg-navy min-h-screen text-slate font-sans selection:bg-green selection:text-navy">
       <Navbar />
-      <Socials />
-      
-      <main className="flex flex-col">
-        <Hero />
-        <About />
-        <Experience />
-        <Work />
-        <Projects />
-        <Contact />
-      </main>
+      <div id="content">
+        <Socials />
 
-      <footer className="py-6 text-center text-slate font-mono text-xs">
-        <a 
-          href="https://github.com/bchiang7/v4" 
-          target="_blank" 
-          rel="noreferrer"
-          className="hover:text-green transition-colors"
-        >
-          <div>Designed by Brittany Chiang</div>
-          <div>Built by Bharath Gaddam</div>
-        </a>
-      </footer>
+        <main className="flex flex-col">
+          <Hero />
+          <About />
+          <Experience />
+          <Work />
+          <Projects />
+          <Contact />
+        </main>
+
+        <footer className="py-6 text-center text-slate font-mono text-xs">
+          <a
+            href="https://github.com/bchiang7/v4"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-green transition-colors"
+          >
+            <div>Designed by Brittany Chiang</div>
+            <div>Built by Bharath Gaddam</div>
+          </a>
+        </footer>
+      </div>
     </div>
   );
 };

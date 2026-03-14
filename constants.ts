@@ -9,6 +9,15 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const JOBS: Job[] = [
+    {
+    company: 'Glance (Inmobi Group)',
+    title: 'ML Intern',
+    range: 'Present',
+    url: 'https://glance.com/',
+    duties: [
+      'Working with RecSys team on improving the features of the user profile for better recommendations',
+    ],
+  },
   {
     company: 'Matrice.Ai',
     title: 'Machine Learning Engineering Intern',

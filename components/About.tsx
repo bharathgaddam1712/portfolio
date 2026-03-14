@@ -36,7 +36,7 @@ const About: React.FC = () => {
             Hello! My name is Bharath and I enjoy building intelligent systems that solve real-world problems. I am currently pursuing an Integrated M.Tech in Artificial Intelligence at <span className="text-green">Rajiv Gandhi Institute of Petroleum Technology (RGIPT)</span>, Bengaluru, maintaining a CGPA of 8.65.
           </p>
           <p className="text-[1.1rem]">
-            I worked as an Research Intern at <span className="text-green">DRDO</span> & MLE Intern at <span className="text-green">Matrice.Ai</span>.
+            Currently working at <span className="text-green">Glance(Inmobi group)</span> as an Ml intern (RecSys). I also worked as an Research Intern at <span className="text-green">DRDO</span> & MLE Intern at <span className="text-green">Matrice.Ai</span>.
           </p>
           <p className="text-[1.1rem]">
             I am open for opportunities in ML(Inference) Research & can help in Building Automated AI Solutions for your company.
